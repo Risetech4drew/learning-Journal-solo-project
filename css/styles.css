@@ -123,6 +123,9 @@ a {
   border-radius: 50%;
 }
 /* navigation */
+nav {
+  margin-right: 1.25em;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
