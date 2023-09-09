@@ -51,6 +51,9 @@ h1 {
   line-height: 1.082;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 /* .article-hero-heading {
 } */
 .view-more-btn {
