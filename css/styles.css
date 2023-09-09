@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: normal;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* Typography */
+.logo-text {
+  font-size: 0.875rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.407px;
+  margin-left: 0.5em;
+}
+.logo-text,
+.view-more-btn,
+.footer-p-heading,
+strong {
+  font-weight: 700;
+}
+.article-info,
+.hero-article-body,
+.article-body,
+.footer-p-copyright {
+  font-weight: 400;
+}
+.article-info {
+  margin-bottom: 0.5em;
+  font-size: 0.875rem;
+}
+.article-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.08;
+  margin: 0.625em 0;
+}
+.article-body,
+.footer-p-copyright {
+  line-height: 1.25;
+}
+.hero-article-body {
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  line-height: 1.082;
+  margin: 0;
+}
+/* .article-hero-heading {
+} */
+.view-more-btn {
+  font-family: inherit;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* layout */
+/* .container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+} */
+.hero-article {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 1.875em;
+}
+.hero-article-image {
+  width: 100%;
+  object-fit: cover;
+  grid-column: 1;
+  grid-row: 1;
+}
+.hero-article-content {
+  color: #fff;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  margin: 0 0.5em;
+}
+.article-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+}
+.article-post {
+  margin-bottom: 2.5em;
+}
+.featured-article,
+.about-me-article {
+  margin-top: 1.875em;
+}
+.logo-img {
+  width: 23px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+.article-image {
+  width: 100%;
+  height: 232px;
+  object-fit: cover;
+}
+.featured-article-img {
+  height: 350px;
+}
+.about-me-image {
+  width: 227px;
+  border-radius: 50%;
+}
+/* navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin-left: 1em;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  color: #090909;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: normal;
+}
+/* footer */
+footer {
+  text-align: center;
+  background: #202020;
+  margin-top: 2.5em;
+  padding: 1.875em 0;
+}
+.footer-p-heading,
+.footer-p-copyright {
+  font-size: 0.75rem;
+}
+.footer-p-heading {
+  color: #ececec;
+  margin: 0;
+  line-height: 1.08;
+  letter-spacing: -0.36px;
+}
+
+.footer-p-copyright {
+  color: #d7d7d7;
+  margin: 0;
+}
+/* Media queries */
+@media (min-width: 675px) {
+  .article-main {
+    flex-direction: row;
+    align-items: center;
+  }
+}
