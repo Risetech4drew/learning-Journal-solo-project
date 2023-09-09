@@ -67,11 +67,11 @@ a {
   cursor: pointer;
 }
 /* layout */
-/* .container {
+.container {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-} */
+}
 .hero-article {
   display: grid;
   grid-template-columns: 1fr;
@@ -116,7 +116,7 @@ a {
   object-fit: cover;
 }
 .featured-article-img {
-  height: 350px;
+  height: 280px;
 }
 .about-me-image {
   width: 227px;
