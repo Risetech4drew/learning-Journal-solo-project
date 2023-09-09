@@ -88,7 +88,7 @@ a {
   grid-column: 1;
   grid-row: 1;
   align-self: end;
-  margin: 0 0.5em;
+  margin: 0 0.5em 2em;
 }
 .article-main {
   display: flex;
